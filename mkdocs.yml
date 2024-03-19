@@ -57,12 +57,12 @@ extra:
 extra_css:
   - css/katex.css
   - css/custom.css
-  - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
 
 extra_javascript:
   - js/katex.js
-  - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js
-  - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
 
 # Extensions
 markdown_extensions:
@@ -92,8 +92,9 @@ nav:
               - 2-3 Correctness of Horner's rule: Chap02/Problems/2-3.md
               - 2-4 Inversions: Chap02/Problems/2-4.md
       - 3 Growth of Functions:
-          - 3.1 Asymptotic notation: Chap03/3.1.md
-          - 3.2 Standard notations and common functions: Chap03/3.2.md
+          - 3.1 $O$-notation, $\Omega$-notation, and $\Theta$-notation: Chap03/3.1.md
+          - 3.2 Asymptotic notation: Chap03/3.2.md
+          - 3.3 Standard notations and common functions: Chap03/3.3.md
           - Chap 3 Problems:
               - 3-1 Asymptotic behavior of polynomials: Chap03/Problems/3-1.md
               - 3-2 Relative asymptotic growths: Chap03/Problems/3-2.md
@@ -102,7 +103,7 @@ nav:
               - 3-5 Variations on $O$ and $\Omega$: Chap03/Problems/3-5.md
               - 3-6 Iterated functions: Chap03/Problems/3-6.md
       - 4 Divide-and-Conquer:
-          - 4.1 The maximum-subarray problem: Chap04/4.1.md
+          - 4.1 Multiplying square matrices: Chap04/4.1.md
           - 4.2 Strassen's algorithm for matrix multiplication: Chap04/4.2.md
           - 4.3 The substitution method for solving recurrences: Chap04/4.3.md
           - 4.4 The recursion-tree method for solving recurrences: Chap04/4.4.md
